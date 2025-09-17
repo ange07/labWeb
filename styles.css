@@ -1,0 +1,39 @@
+/* H1 en color verde */
+h1 {
+    color: green;
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+}
+
+/*Clase blue*/
+.blue {
+    color: blue;
+}
+
+#red {
+    color: red;
+    border: 2px solid red;
+    padding: 10px;
+    display: block;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#clickable-header {
+    cursor: pointer;
+    border: 2px dashed rgb(116, 16, 183);
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+#clickable-header:hover {
+    background-color: #f0f0f0;
+}
+
+/* Estilos generales para mejor presentación */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
